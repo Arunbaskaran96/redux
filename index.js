@@ -122,4 +122,4 @@ app.post("/login", async (req, res) => {
   }
 });
 
-app.listen(8000);
+app.listen(process.env.PORT || 8000);
